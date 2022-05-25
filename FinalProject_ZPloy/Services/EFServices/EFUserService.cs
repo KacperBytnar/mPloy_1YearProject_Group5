@@ -41,7 +41,7 @@ namespace mPloy_FinalProject_group5.Services.EFServices
         {
             //context.AppUsers.Update(user);
             //var tempUser = userManager.Users.Where(t => t.Id == user.Id).FirstOrDefault();
-            var tempUser = await userManager.FindByNameAsync(user.UserName);
+            var tempUser = await userManager.FindByIdAsync(user.Id.ToString());
             if (tempUser != null)
             {
                 tempUser.Id = user.Id;
@@ -54,7 +54,7 @@ namespace mPloy_FinalProject_group5.Services.EFServices
                 tempUser.Description = user.Description;
                 tempUser.Email = user.Email;
                 tempUser.PhoneNumber = user.PhoneNumber;
-                var result =  await userManager.UpdateAsync(tempUser);
+                await userManager.UpdateAsync(tempUser);
                 context.SaveChanges();
                 return tempUser;
             }
