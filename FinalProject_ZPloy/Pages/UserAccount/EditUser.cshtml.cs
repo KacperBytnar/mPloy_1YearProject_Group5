@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using FinalProject_ZPloy.Common;
-using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.Interfaces;
+using mPloy_FinalProject_group5.Common;
+using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.Interfaces;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinalProject_ZPloy.Pages.UserAccount
+namespace mPloy_FinalProject_group5.Pages.UserAccount
 {
     public class EditUserModel : PageModel
     {

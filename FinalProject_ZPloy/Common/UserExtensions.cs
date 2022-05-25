@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy.Common
+namespace mPloy_FinalProject_group5.Common
 {
     public static class UserExtensions
     {

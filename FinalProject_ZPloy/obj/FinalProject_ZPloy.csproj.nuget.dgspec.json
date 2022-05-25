@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj": {}
+    "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj": {
+    "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj",
+        "projectUniqueName": "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj",
         "projectName": "FinalProject_ZPloy",
-        "projectPath": "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj",
+        "projectPath": "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj",
         "packagesPath": "C:\\Users\\Mateista\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\obj\\",
+        "outputPath": "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mateista\\AppData\\Roaming\\NuGet\\NuGet.Config",

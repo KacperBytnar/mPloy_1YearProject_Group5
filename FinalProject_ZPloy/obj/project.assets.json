@@ -5983,11 +5983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj",
-      "projectName": "FinalProject_ZPloy",
-      "projectPath": "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\FinalProject_ZPloy.csproj",
+      "projectUniqueName": "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\mPloy_FinalProject_group5.csproj",
+      "projectName": "mPloy_FinalProject_group5",
+      "projectPath": "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\mPloy_FinalProject_group5.csproj",
       "packagesPath": "C:\\Users\\Mateista\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mateista\\Desktop\\mPloy-FinalProject_group5\\FinalProject_ZPloy\\obj\\",
+      "outputPath": "C:\\Users\\Mateista\\Desktop\\mPloy_FinalProject_group5\\FinalProject_ZPloy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mateista\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,5 @@
-﻿using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.Interfaces;
+﻿using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy.Services.EFServices
+namespace mPloy_FinalProject_group5.Services.EFServices
 {
     public class EFTaskService : ITaskService
     {
@@ -81,7 +81,7 @@ namespace FinalProject_ZPloy.Services.EFServices
 
         public IEnumerable<Models.Task> GetTasksFilteredByCategory(string category)
         {
-            Models.Task.TaskCategory MyEnum;
+            Common.Enums.TaskCategory MyEnum;
             var result =  Enum.TryParse(category, out MyEnum);
             return context.Tasks.Where(t => t.Categories == MyEnum).ToList(); 
         }

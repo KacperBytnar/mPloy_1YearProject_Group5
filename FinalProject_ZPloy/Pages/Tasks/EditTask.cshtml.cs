@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FinalProject_ZPloy.Common;
-using FinalProject_ZPloy.Services.Interfaces;
+using mPloy_FinalProject_group5.Common;
+using mPloy_FinalProject_group5.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinalProject_ZPloy.Pages.Tasks
+namespace mPloy_FinalProject_group5.Pages.Tasks
 {
     public class EditTaskModel : PageModel
     {

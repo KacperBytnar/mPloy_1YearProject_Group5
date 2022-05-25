@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy.Pages
+namespace mPloy_FinalProject_group5.Pages
 {
     public class IndexModel : PageModel
     {

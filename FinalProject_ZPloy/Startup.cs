@@ -1,6 +1,6 @@
-using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.EFServices;
-using FinalProject_ZPloy.Services.Interfaces;
+using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.EFServices;
+using mPloy_FinalProject_group5.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy
+namespace mPloy_FinalProject_group5
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace FinalProject_ZPloy.Migrations
+namespace mPloy_FinalProject_group5.Migrations
 {
     public partial class taskuser : Migration
     {

@@ -1,5 +1,5 @@
-﻿using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.Interfaces;
+﻿using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy.Services.EFServices
+namespace mPloy_FinalProject_group5.Services.EFServices
 {
     public class EFUserService : IUserService
     {
@@ -21,11 +21,11 @@ namespace FinalProject_ZPloy.Services.EFServices
             this.userManager = userManager;
         }
 
-        public void CreateUser(AppUser user)
-        {
-            //context.AppUsers.Add(user);
-            context.SaveChanges();
-        }
+        //public void CreateUser(AppUser user)
+        //{
+        //    //context.AppUsers.Add(user);
+        //    context.SaveChanges();
+        //}
 
         public List<AppUser> GetAllUsers()
         {

@@ -1,11 +1,12 @@
-﻿using System;
+﻿using mPloy_FinalProject_group5.Common.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy.Models
+namespace mPloy_FinalProject_group5.Models
 {
     public class Task
     {
@@ -32,28 +33,28 @@ namespace FinalProject_ZPloy.Models
         [Required]
         public TaskCategory Categories {get;set;}
 
-        public enum TaskCategory
-        {
-            Cleaning,   
-            MovingServices,
-            Handyman,
-            Gardening
-        }
+        //public enum TaskCategory
+        //{
+        //    Cleaning,
+        //    MovingServices,
+        //    Handyman,
+        //    Gardening
+        //}
 
-        public enum TaskState
-        {
-            Open,
-            InProgress,
-            Closed
-        }
+        //public enum TaskState
+        //{
+        //    Open,
+        //    InProgress,
+        //    Closed
+        //}
 
-        public enum PaymentMethod
-        {
-            Cash,
-            MobilePay,
-            BankTransfer,
-            SecurePayment
-        }
+        //public enum PaymentMethod
+        //{
+        //    Cash,
+        //    MobilePay,
+        //    BankTransfer,
+        //    SecurePayment
+        //}
 
 
         // Foreign Keys

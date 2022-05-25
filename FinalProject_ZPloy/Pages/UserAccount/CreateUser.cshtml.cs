@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.Interfaces;
-using FinalProject_ZPloy.ViewModels;
+using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.Interfaces;
+using mPloy_FinalProject_group5.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinalProject_ZPloy.Pages.UserAccount
+namespace mPloy_FinalProject_group5.Pages.UserAccount
 {
     public class CreateUserModel : PageModel
     {
@@ -45,7 +45,12 @@ namespace FinalProject_ZPloy.Pages.UserAccount
             }
             else
             {
-                var userr = new AppUser() { Email = registerModel.Username, UserName = registerModel.Username };
+                var userr = new AppUser() { Email = registerModel.User.Email, UserName = registerModel.Username,
+                    Description= registerModel.User.Description, FirstName = registerModel.User.FirstName, LastName = registerModel.User
+                .LastName, Age = registerModel.User.Age, StreetAddress = registerModel.User.StreetAddress, ZipCode = registerModel.User
+                .ZipCode, City = registerModel.User
+                .City, PhoneNumber= registerModel.User
+                .PhoneNumber};
                 var result = await userManager.CreateAsync(userr, registerModel.Password);
                 if (result.Succeeded)
                 {

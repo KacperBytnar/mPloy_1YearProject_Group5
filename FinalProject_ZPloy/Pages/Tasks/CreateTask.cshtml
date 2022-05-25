@@ -1,5 +1,5 @@
 ﻿@page
-@model FinalProject_ZPloy.Pages.Tasks.CreateTaskModel
+@model mPloy_FinalProject_group5.Pages.Tasks.CreateTaskModel
 @{ }
 
 <style>
@@ -38,14 +38,14 @@
         <div class="form-row">
             <div class="col-md-4 mb-3" style="margin-right:95px">
                 <select asp-for="@Model.task.Categories" class="form-control rounded-pill"
-                        asp-items="Html.GetEnumSelectList<Models.Task.TaskCategory>()">
+                        asp-items="Html.GetEnumSelectList<Common.Enums.TaskCategory>()">
                     <option value="">-- Select Category --</option>
                 </select>
                 <span asp-validation-for="@Model.task.Categories" class="text-danger"></span>
             </div>
             <div class="col-md-4 mb-3">
                 <select asp-for="@Model.task.Payment" class="form-control rounded-pill"
-                        asp-items="Html.GetEnumSelectList<Models.Task.PaymentMethod>()">
+                        asp-items="Html.GetEnumSelectList<Common.Enums.PaymentMethod>()">
                     <option value="">-- Select Payment Method --</option>
                 </select>
                 <span asp-validation-for="@Model.task.Payment" class="text-danger"></span>

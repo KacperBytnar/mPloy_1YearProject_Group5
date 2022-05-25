@@ -1,11 +1,11 @@
-﻿using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.Interfaces;
+﻿using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FinalProject_ZPloy.Services.EFServices
+namespace mPloy_FinalProject_group5.Services.EFServices
 {
     public class EFBidService : IBidService
     {

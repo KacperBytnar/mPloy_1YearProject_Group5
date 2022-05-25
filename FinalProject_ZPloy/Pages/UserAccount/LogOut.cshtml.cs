@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FinalProject_ZPloy.Models;
+using mPloy_FinalProject_group5.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinalProject_ZPloy.Pages.UserAccount
+namespace mPloy_FinalProject_group5.Pages.UserAccount
 {
     public class LogOutModel : PageModel
     {

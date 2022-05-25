@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using mPloy_FinalProject_group5.Models;
 
-namespace FinalProject_ZPloy.ViewModels
+namespace mPloy_FinalProject_group5.ViewModels
 {
     public class RegisterViewModel
     {
+        public AppUser User { get; set; }
         [Required]
         [Display(Name = "Login")]
         public string Username { get; set; }

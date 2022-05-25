@@ -4,16 +4,16 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using FinalProject_ZPloy.Models;
-using FinalProject_ZPloy.Services.Interfaces;
-using FinalProject_ZPloy.ViewModels;
+using mPloy_FinalProject_group5.Models;
+using mPloy_FinalProject_group5.Services.Interfaces;
+using mPloy_FinalProject_group5.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinalProject_ZPloy.Pages.UserAccount
+namespace mPloy_FinalProject_group5.Pages.UserAccount
 {
     public class AccountLogInModel : PageModel
     {
@@ -23,13 +23,13 @@ namespace FinalProject_ZPloy.Pages.UserAccount
 
         //private IUserService userService;
         private readonly SignInManager<AppUser> signInManager;
-        private IUserService userService;
+        //private IUserService userService;
         public string URL { get; set; }
 
         public AccountLogInModel(SignInManager<AppUser> signInManager, IUserService userService)
         {
             this.signInManager = signInManager;
-            this.userService = userService;
+            //this.userService = userService;
         }
 
         public void OnGet(string ReturnURL)

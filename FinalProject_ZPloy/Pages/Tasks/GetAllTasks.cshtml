@@ -1,5 +1,5 @@
 ﻿@page
-@model FinalProject_ZPloy.Pages.Tasks.GetAllTasksModel
+@model mPloy_FinalProject_group5.Pages.Tasks.GetAllTasksModel
 @{ }
 
 <style>
@@ -20,7 +20,7 @@
 
                 <select asp-for="Criteria" class="form-control float-lg-right">
                     <option value="">-- Select Category --</option>
-                    @foreach (var item in Enum.GetValues(typeof(Models.Task.TaskCategory)))
+                    @foreach (var item in Enum.GetValues(typeof(Common.Enums.TaskCategory)))
                     {
         <option >
             @item
